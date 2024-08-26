@@ -69,9 +69,9 @@ font-family: "Montserrat",
     border-radius: 8px;
     background: #ff6b0a;
     border-radius: 8px;
-        padding: 12px 24px;
-        width: 172px;
-        height: 48px;
+    padding: 12px 24px;
+    width: 172px;
+    height: 48px;
 }
 
 .goit-logo {
@@ -91,8 +91,8 @@ font-family: "Montserrat",
 }
 
 .facts {
-    padding-top: 48;
-    padding-bottom: 100;
+    padding-top: 48px;
+    padding-bottom: 100px;
     text-align: center;
 }
 
@@ -138,4 +138,117 @@ font-family: "Montserrat",
     width: calc((100% / 3) - (24px * 2)/3 );
 }
 
+.form-container {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgba(252, 254, 254, 0.93) 0%, #a5deff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.form {
+    background: #fff;
+    border-radius: 40px;
+    padding-top: 32px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.form-trezub{
+    margin-bottom: 32px;
+}
+
+.form-title {
+    font-weight: 600;
+    font-size: 24px;
+    /* line-height: 24px; */
+    line-height: 1;
+    color: #1b1d1f;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.form-descr{
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    color: #1b1d1f;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-field-label {
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+
+.form-field-name {
+    margin-bottom: 24px;
+}
+
+.form-input {
+    border: 1px solid #005bbb;
+    border-radius: 8px;
+        font-weight: 400;
+        font-size: 16px;
+        /* line-height: 24px; */
+        line-height: 1.5;
+        color: #1b1d1f;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        box-sizing: border-box;
+        width: 100%;
+}
+
+.form-btn {
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 150%;
+    color: #fff;
+    cursor: pointer;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background: #ff6b0a;
+    border-radius: 8px;
+    border: none;
+}
+
+
+.form-field-email {
+    margin-bottom: 48px;
+}
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
